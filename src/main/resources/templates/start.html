@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org">
 <head>
+<link rel="styelsheet" href="start.css">
 <meta charset="ISO-8859-1">
 <title>PlantPlaces.com</title>
 </head>
 <body>
-	<h1>Welcome to PlantPlaces!</h1>
+<div class="header">
+	<h1 style="color: green; text-decoration: underline;">Welcome to PlantPlaces!</h1>
+</div>
 	<br/>
 	<p th:text = "${specimenDTO}"/>
 </body>
